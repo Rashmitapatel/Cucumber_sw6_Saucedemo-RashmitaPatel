@@ -1,0 +1,6 @@
+2023-05-14 14:05:851 INFO  HomePage :35 - Enter Username : Prime123@gmail.com to username field [[ChromeDriver: chrome on WINDOWS (81c1925c23c995d34e4dd8f2b5a01ab1)] -> id: user-name]
+2023-05-14 14:05:964 INFO  HomePage :40 - Enter password : Testing123 to password field [[ChromeDriver: chrome on WINDOWS (81c1925c23c995d34e4dd8f2b5a01ab1)] -> id: password]
+2023-05-14 14:05:239 INFO  HomePage :35 - Enter Username : Prime123@gmail.com to username field [[ChromeDriver: chrome on WINDOWS (9f6e451cd99631174aabeb188e5e9cb5)] -> id: user-name]
+2023-05-14 14:05:430 INFO  HomePage :40 - Enter password : Testing123 to password field [[ChromeDriver: chrome on WINDOWS (9f6e451cd99631174aabeb188e5e9cb5)] -> id: password]
+2023-05-14 16:05:182 INFO  HomePage :35 - Enter Username : Prime123@gmail.com to username field [[ChromeDriver: chrome on WINDOWS (21df3fc43c0092e47c2d8c413bf0de27)] -> id: user-name]
+2023-05-14 16:05:509 INFO  HomePage :40 - Enter password : Testing123 to password field [[ChromeDriver: chrome on WINDOWS (21df3fc43c0092e47c2d8c413bf0de27)] -> id: password]

@@ -1,0 +1,140 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12978349700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User Should login  successfully  with valid credentials",
+        "description": "",
+        "id": "login-test;user-should-login--successfully--with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 3297550500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 431483900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 536566100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepdefs.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297986300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepdefs.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should login sucessfully",
+            "match": {
+              "location": "MyStepdefs.iShouldLoginSucessfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I shouild see the Produts \"Products\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Products",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepdefs.iShouildSeeTheProdutsText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As User I want to Login into Saucedemo website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
